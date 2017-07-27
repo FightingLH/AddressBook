@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E44557171B9CA8F4910B0A /* Pods_AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9A1C2FF849BE1D3728FEDE /* Pods_AddressBook.framework */; };
 		EB56EE4A1EF77C1E00B476D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE491EF77C1E00B476D6 /* main.m */; };
 		EB56EE4D1EF77C1E00B476D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE4C1EF77C1E00B476D6 /* AppDelegate.m */; };
 		EB56EE501EF77C1E00B476D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE4F1EF77C1E00B476D6 /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		EB56EE581EF77C1E00B476D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB56EE561EF77C1E00B476D6 /* LaunchScreen.storyboard */; };
 		EB56EE631EF77C1E00B476D6 /* AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE621EF77C1E00B476D6 /* AddressBookTests.m */; };
 		EB56EE6E1EF77C1E00B476D6 /* AddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE6D1EF77C1E00B476D6 /* AddressBookUITests.m */; };
+		EB56EE7D1EF7A8C700B476D6 /* TestMantleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE7C1EF7A8C700B476D6 /* TestMantleModel.m */; };
+		EB56EE801EF7A8DF00B476D6 /* TestJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE7F1EF7A8DF00B476D6 /* TestJsonModel.m */; };
+		EB56EE831EF7A8F700B476D6 /* TestMjextensionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE821EF7A8F700B476D6 /* TestMjextensionModel.m */; };
+		EB56EE861EF7A90800B476D6 /* TestYYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB56EE851EF7A90800B476D6 /* TestYYModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2722E359AC780DD904C05437 /* Pods-AddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressBook/Pods-AddressBook.release.xcconfig"; sourceTree = "<group>"; };
+		6C9A1C2FF849BE1D3728FEDE /* Pods_AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FDE2DF908EF98433BF3C56 /* Pods-AddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressBook/Pods-AddressBook.debug.xcconfig"; sourceTree = "<group>"; };
 		EB56EE451EF77C1E00B476D6 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB56EE491EF77C1E00B476D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB56EE4B1EF77C1E00B476D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		EB56EE691EF77C1E00B476D6 /* AddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB56EE6D1EF77C1E00B476D6 /* AddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookUITests.m; sourceTree = "<group>"; };
 		EB56EE6F1EF77C1E00B476D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB56EE7B1EF7A8C700B476D6 /* TestMantleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMantleModel.h; sourceTree = "<group>"; };
+		EB56EE7C1EF7A8C700B476D6 /* TestMantleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMantleModel.m; sourceTree = "<group>"; };
+		EB56EE7E1EF7A8DF00B476D6 /* TestJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestJsonModel.h; sourceTree = "<group>"; };
+		EB56EE7F1EF7A8DF00B476D6 /* TestJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestJsonModel.m; sourceTree = "<group>"; };
+		EB56EE811EF7A8F700B476D6 /* TestMjextensionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMjextensionModel.h; sourceTree = "<group>"; };
+		EB56EE821EF7A8F700B476D6 /* TestMjextensionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMjextensionModel.m; sourceTree = "<group>"; };
+		EB56EE841EF7A90800B476D6 /* TestYYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestYYModel.h; sourceTree = "<group>"; };
+		EB56EE851EF7A90800B476D6 /* TestYYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestYYModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E44557171B9CA8F4910B0A /* Pods_AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1862FE27469C215B127BBC37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9A1C2FF849BE1D3728FEDE /* Pods_AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B2E54E71848464AED0ED5BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5FDE2DF908EF98433BF3C56 /* Pods-AddressBook.debug.xcconfig */,
+				2722E359AC780DD904C05437 /* Pods-AddressBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB56EE3C1EF77C1E00B476D6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				EB56EE611EF77C1E00B476D6 /* AddressBookTests */,
 				EB56EE6C1EF77C1E00B476D6 /* AddressBookUITests */,
 				EB56EE461EF77C1E00B476D6 /* Products */,
+				7B2E54E71848464AED0ED5BB /* Pods */,
+				1862FE27469C215B127BBC37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +141,14 @@
 				EB56EE4C1EF77C1E00B476D6 /* AppDelegate.m */,
 				EB56EE4E1EF77C1E00B476D6 /* ViewController.h */,
 				EB56EE4F1EF77C1E00B476D6 /* ViewController.m */,
+				EB56EE7B1EF7A8C700B476D6 /* TestMantleModel.h */,
+				EB56EE7C1EF7A8C700B476D6 /* TestMantleModel.m */,
+				EB56EE7E1EF7A8DF00B476D6 /* TestJsonModel.h */,
+				EB56EE7F1EF7A8DF00B476D6 /* TestJsonModel.m */,
+				EB56EE811EF7A8F700B476D6 /* TestMjextensionModel.h */,
+				EB56EE821EF7A8F700B476D6 /* TestMjextensionModel.m */,
+				EB56EE841EF7A90800B476D6 /* TestYYModel.h */,
+				EB56EE851EF7A90800B476D6 /* TestYYModel.m */,
 				EB56EE511EF77C1E00B476D6 /* Main.storyboard */,
 				EB56EE541EF77C1E00B476D6 /* Assets.xcassets */,
 				EB56EE561EF77C1E00B476D6 /* LaunchScreen.storyboard */,
@@ -147,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB56EE721EF77C1E00B476D6 /* Build configuration list for PBXNativeTarget "AddressBook" */;
 			buildPhases = (
+				24B834558F593E629044F4B8 /* [CP] Check Pods Manifest.lock */,
 				EB56EE411EF77C1E00B476D6 /* Sources */,
 				EB56EE421EF77C1E00B476D6 /* Frameworks */,
 				EB56EE431EF77C1E00B476D6 /* Resources */,
+				467327BE367A45CE2AAF7961 /* [CP] Embed Pods Frameworks */,
+				5CCD0CA77557A25DCCD522CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +254,7 @@
 				TargetAttributes = {
 					EB56EE441EF77C1E00B476D6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 46HK7Y94KA;
 						ProvisioningStyle = Automatic;
 					};
 					EB56EE5D1EF77C1E00B476D6 = {
@@ -268,6 +316,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24B834558F593E629044F4B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		467327BE367A45CE2AAF7961 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressBook/Pods-AddressBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CCD0CA77557A25DCCD522CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressBook/Pods-AddressBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB56EE411EF77C1E00B476D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,6 +371,10 @@
 			files = (
 				EB56EE501EF77C1E00B476D6 /* ViewController.m in Sources */,
 				EB56EE4D1EF77C1E00B476D6 /* AppDelegate.m in Sources */,
+				EB56EE861EF7A90800B476D6 /* TestYYModel.m in Sources */,
+				EB56EE831EF7A8F700B476D6 /* TestMjextensionModel.m in Sources */,
+				EB56EE801EF7A8DF00B476D6 /* TestJsonModel.m in Sources */,
+				EB56EE7D1EF7A8C700B476D6 /* TestMantleModel.m in Sources */,
 				EB56EE4A1EF77C1E00B476D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,8 +524,10 @@
 		};
 		EB56EE731EF77C1E00B476D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FDE2DF908EF98433BF3C56 /* Pods-AddressBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
 				INFOPLIST_FILE = AddressBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.AddressBook;
@@ -435,8 +537,10 @@
 		};
 		EB56EE741EF77C1E00B476D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2722E359AC780DD904C05437 /* Pods-AddressBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46HK7Y94KA;
 				INFOPLIST_FILE = AddressBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.AddressBook;
@@ -509,6 +613,7 @@
 				EB56EE741EF77C1E00B476D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB56EE751EF77C1E00B476D6 /* Build configuration list for PBXNativeTarget "AddressBookTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +622,7 @@
 				EB56EE771EF77C1E00B476D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB56EE781EF77C1E00B476D6 /* Build configuration list for PBXNativeTarget "AddressBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +631,7 @@
 				EB56EE7A1EF77C1E00B476D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

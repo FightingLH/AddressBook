@@ -1,0 +1,23 @@
+PODS:
+  - JSONModel (1.7.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - MJExtension (3.0.13)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - JSONModel
+  - Mantle
+  - MJExtension
+  - YYModel
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: ca0a1ed763ccd4ebc34155dd8d879e4027cd4402
+
+COCOAPODS: 1.2.1
